@@ -1,17 +1,14 @@
 h1{
   color:black;
   
+  body{
+    color:blue;
+  }
+  
+  
 
 
-  
-  background{
-     width: 100%;
-    height: 100vh;
-  color: #fff; 
-  background-size: 400% 400%;
-    background-color: limegreen;
-    position:relative;
-    }
-  
+
+
   
     

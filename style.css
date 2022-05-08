@@ -1,7 +1,7 @@
 body {
 background-color: lavender;
   color: blue;
-}
+
 
 
 #container{
@@ -83,6 +83,8 @@ ul{color:limegreen
 dt{color:
 }
 form{color:rgb(255, 28, 28)
+  
+  }
 
 #footer{
 font-size:60%;
@@ -90,7 +92,7 @@ color:blue;
 }
   
   
-  
+ 
   
   
 

@@ -1,9 +1,8 @@
 
-body {
-background-color: pink;
-  color: blue;
 
-.tenor-gif-embed {
-  baxkground-image:https://tenor.com/view/glitter-flow-gold-swirling-gif-19543121 
-  }
+body{
+ background-image: url("https://tenor.com/view/glitter-flow-gold-swirling-gif-19543121");
+ background-color: pink;
+  color:blue
+}
   

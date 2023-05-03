@@ -1,13 +1,78 @@
 
-body{
- background-color: pink;
-  color:blue
-}
+h1 {
+    text-shadow: 0 0 10px #13b85a, 0 0 20px #054e19, 0 0 30px #fff, 0 0 40px #3debab, 0 0 70px #00fff4, 0 0 80px #0af4d9, 0 0 100px #00fff4, 0 0 150px #00fff4;
+  }
 
-paragraph {
- color: white;
-}
+
+  p{ 
+
+    background-color: rgb(207, 144, 207);
+text-align: center;
+
+
+  }
+
+  #header{ 
+background-color: #0af4d9;
+
+
+  }
+
   
-ul{
- color: "white";
-}
+body {
+  background-color: rgb(179, 240, 214);
+
+    background-image: url("../marble.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+
+  li{
+
+    @media (max-width: 780px) {
+        body {
+          background-color: lightblue;
+        }
+      }
+
+  }
+
+/* form with validation connected to html page*/
+  
+  input:invalid {
+    border-color: red;
+  }
+  
+  #error-message {
+    color: red;
+    display: none;
+  }
+
+/* Flexbox facials */ 
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item {
+    background-color: #ddd;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+  }
